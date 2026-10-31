@@ -57,7 +57,7 @@ jobs:
         id: meta
         uses: docker/metadata-action@v5
         with:
-          images: ghcr.io/mtvpls/moontvplus-lite
+          images: ghcr.io/wendyfu1983/moontvplus-lite
           tags: |
             type=raw,value=${{ steps.version.outputs.version }}
             type=raw,value=${{ github.event.inputs.tag || 'latest' }}
