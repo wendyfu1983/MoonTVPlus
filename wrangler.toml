@@ -40,6 +40,6 @@ NODE_ENV = "production"
 BUILD_TARGET = "cloudflare"
 # cron 路由等任务真正结束再返回（CF 上不需要 Vercel 那套"先返回 202 再后台跑"）
 CRON_WAIT_FOR_COMPLETION = "true"
-ENABLE_TVBOX = "true"
-TVBOX_SECURITY_KEY = "georgiantoken435345"
+ENABLE_TVBOX_SUBSCRIBE = "true"
+TVBOX_SUBSCRIBE_TOKEN = "7bc1a054b50f32f09a0a1d5309e1b9274ad018181164c56b"
 
